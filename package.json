@@ -1,0 +1,22 @@
+{
+  "name": "softwarequality-reliability-presentation",
+  "version": "1.0.0",
+  "description": "A presentation about the software quality criteria reliability (based on ISO 25010)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTomczek/softwarequality-reliability-presentation.git"
+  },
+  "author": "Tim Tomczek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TTomczek/softwarequality-reliability-presentation/issues"
+  },
+  "homepage": "https://github.com/TTomczek/softwarequality-reliability-presentation#readme",
+  "dependencies": {
+    "reveal.js": "^5.1.0"
+  }
+}

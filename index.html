@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Meine Präsentation</title>
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/blood.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-transition="zoom" data-transition-speed="slow">
+            <h2 class="r-fit-text">Warum Reliability wichtig ist</h2>
+        </section>
+        <section>
+            <section>Stellen Sie sich folgende Situation vor...</section>
+            <section>Sie können das Dokument, an dem Sie seit zwei Stunden arbeiten, nicht speichern, da dass enthaltene Bild zu groß ist, oder ...</section>
+            <section>Sie können wichtige Daten nicht abrufen, da dass System mit Lastspitzen nicht umgehen kann, oder ...</section>
+            <section>die Anwendung stürzt ab, weil das Internet ausgefallen ist, oder ...</section>
+            <section>Nach einem Stromausfall sind Programmdateien beschädigt und die Anwendung kann nicht mehr gestartet werden.</section>
+        </section>
+        <section>
+            <section>Wie das testen, der Reliability abhilfe schaffen kann (nach ISO 25010)</section>
+            <section>
+                <h3>Faultlessness</h3>
+                <p>Definieren der alltäglichen Nutzung und überprüfen, ob die Anwendung in diesen Situationen fehlerfrei funktioniert</p>
+            </section>
+            <section>
+                <h3>Availability</h3>
+                <p>Testen, ob die Anwendung in verschiedenen Situationen erreichbar/nutzbar bleibt</p>
+            </section>
+            <section>
+                <h3>Fault tolerance</h3>
+                <p>Durch bewusstes Herbeiführen von Fehlern, die Widerstandsfähigkeit gegen diese Fehler testen</p>
+            </section>
+            <section>
+                <h3>Recoverability</h3>
+                <p>Ist die Anwendung in der Lage nach einem Fehle wieder in einen nutzbaren Zustand zurückzukehren</p>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h3>Ergebnis</h3>
+                <p>Die Software...</p>
+                <ul>
+                    <li>kann ihre alltäglichen Aufgaben zuverlässig erledigen</li>
+                    <li>ist in allen Situationen verfügbar und nutzbar</li>
+                    <li>kann Fehler des Nutzers und der Umgebung entsprechend reagieren</li>
+                    <li>kann sich nach einem unvorhergesehenen Fehler wieder "erholen"</li>
+                </ul>
+            </section>
+            <section>Natürlich kann völlige Fehlerfreiheit nicht gewährleistet werden...</section>
+        </section>
+    </div>
+</div>
+<script src="node_modules/reveal.js/dist/reveal.js"></script>
+<script>
+    Reveal.initialize();
+</script>
+</body>
+</html>
